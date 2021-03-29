@@ -26,7 +26,6 @@ function App(props) {
             className="list-component"
             onClick={() => props.deleteItem(index)}
           >
-            {" "}
             {item}
           </div>
         ))}
